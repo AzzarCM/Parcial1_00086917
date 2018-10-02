@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 56px;
+    color: white;
+}
+
+.navbar .links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    background-color: #000;
+    position: relative;
+    height: 100%;
+}
+.links li a{
+    color: white;
+    text-decoration: none;
+}
+.links .logo{
+    height: 100px;
+    width: 100px;
+    background-color: #000;
+    position: absolute;
+    top: 4px;
+    padding: 0 5px 5px; 
+    -webkit-clip-path: polygon(50% 0% 100% 50% 50% 100% 0 50%);
+    clip-path: polygon(50% 0% 100% 50% 50% 100% 0 50%)
+}
+.links .logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
